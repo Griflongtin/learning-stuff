@@ -11,6 +11,9 @@ export class WelcomeComponent implements OnInit {
 
   ngOnInit() {
   }
+  switchPage() {
+    this.router.navigate(['work']);
 
+  }
 
 }

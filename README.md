@@ -9,7 +9,11 @@
 * *_ Routing in Angular 2_*
 * *_Retrieving Parameters in Dynamic Routing_*
 * *_Firebase API-services_*
+* *_SCSS UI styling_*
 * *_WhiteBoarding practice_*
+
+## About Project
+  With this project I hope to understand more about how Angular 2 routing, retrieving data from Dynamic Routing with API’s. I will work on the styling of this project to make the UI user friendly.
 
 ## Setup/Installation Requirements
 

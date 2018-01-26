@@ -1,5 +1,14 @@
 <div class="WelcomeComponent-div">
   <button type="button" (click)="switchPage()">Work Page</button>
+  <div class="form">
+    <label>User Name</label>
+    <input type="text" name="userName" #userName>
+    <label>Doc name</label>
+    <input type="text" name="text" #text>
+    <label>Text Area</label>
+    <input type="text-area" name="textArea" #textArea>
+    <button type="button" name="button" (click)="newUser(userName.value, text.value, textArea.value)">Add User and doc</button>
+  </div>
 
   <div class="user" *ngFor="let user of Users | async">
     <h2>{{user.name}}</h2>

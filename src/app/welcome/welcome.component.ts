@@ -17,5 +17,8 @@ export class WelcomeComponent implements OnInit {
   switchPage() {
     this.router.navigate(['work']);
   }
+  newUser(UserName, docName, text) {
+    
+  }
 
 }

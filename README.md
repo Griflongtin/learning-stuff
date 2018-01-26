@@ -10,6 +10,7 @@
 * *_Retrieving Parameters in Dynamic Routing_*
 * *_Firebase API-services_*
 * *_SCSS UI styling_*
+* *_ELECTRON_*
 * *_WhiteBoarding practice_*
 
 ## About Project

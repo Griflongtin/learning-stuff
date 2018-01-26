@@ -4,6 +4,13 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
 @Injectable()
 export class UserDocsService {
 
-  constructor(private database: AngularFireDatabase) { }
+  users;
 
+  constructor(private database: AngularFireDatabase) {
+    this.users = database.list('users');
+  }
+
+    getUsers(){
+      return this.users;
+    }
 }

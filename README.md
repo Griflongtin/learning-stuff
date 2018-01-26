@@ -1,31 +1,42 @@
-# LearningStuff
+# _Learning Stuff_
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
+#### _This is a website made to help me understand concepts and learn more about them_
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#### By _**GRIFFIN P LOGNTIN**_
 
-## Code scaffolding
+## List of thing to test ###### Not all completed
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+* *_ Routing in Angular 2_*
+* *_Retrieving Parameters in Dynamic Routing_*
+* *_Firebase API-services_*
+* *_WhiteBoarding practice_*
 
-## Build
+## Setup/Installation Requirements
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+#### You will need to clone the repository:
 
-## Running unit tests
+* Open up terminal
+* Copy and paste this:
+* cd ~
+* cd desktop
+* git clone https://github.com/Griflongtin/learning-stuff.git
+* cd learning-stuff
+* mpn i
+* ng serve -o
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Support and contact details
 
-## Running end-to-end tests
+_For support or any question please E-mail me at GrifLongtin@live.com_
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+## Technologies Used
 
-## Deploying to GitHub Pages
+  * Atom
+  * JavaScript
+  * CSS
+  * SCSS
+  * Node
+  * Angular-CLI
 
-Run `ng github-pages:deploy` to deploy to GitHub Pages.
+### License
 
-## Further help
-
-To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Copyright (c) 2016 **_GRIFFIN P LONGTIN_**

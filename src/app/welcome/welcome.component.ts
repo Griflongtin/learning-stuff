@@ -8,10 +8,11 @@ import { UserDocsService } from '../user-docs.service';
   providers: [UserDocsService]
 })
 export class WelcomeComponent implements OnInit {
-
-  constructor(private router: Router) { }
+  Users;
+  constructor(private router: Router, private UserDocsService: UserDocsService) { }
 
   ngOnInit() {
+    this.Users = this.UserDocsService.getUsers();
   }
   switchPage() {
     this.router.navigate(['work']);

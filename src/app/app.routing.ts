@@ -8,8 +8,7 @@ import { WorksComponent } from './works/works.component';
 const appRoutes: Routes = [
   {
     path: '',
-    component: WelcomeComponent,
-
+    component: WelcomeComponent
   },
   {
      path: 'work',

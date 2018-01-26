@@ -1,0 +1,8 @@
+{ "users": [{
+    "name": "Griffin",
+    "doc": {"Google": "lorem"}
+  }, {
+    "name": "Griffin",
+    "doc": {"doc2": "lorem"}
+  }]
+}

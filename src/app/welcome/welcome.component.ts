@@ -18,7 +18,7 @@ export class WelcomeComponent implements OnInit {
     this.router.navigate(['work']);
   }
   newUser(UserName, docName, text) {
-    
+    this.UserDocsService.addUser(UserName, docName, text);
   }
 
 }

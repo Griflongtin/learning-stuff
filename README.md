@@ -16,6 +16,13 @@
 ## About Project
   With this project I hope to understand more about how Angular 2 routing, retrieving data from Dynamic Routing with API’s. I will work on the styling of this project to make the UI user friendly.
 
+## Struggles
+
+I struggle with firebase API calling and how to wright in JSON format. I could get the name strings to display but I still cant get an array to display. I couldn’t get my ngFor loop to work inside author forloop.
+
+I also struggle with some angular installation version problems. Spend a lot of time just trying to get my computer run the ng serve.
+
+
 ## Setup/Installation Requirements
 
 #### You will need to clone the repository:

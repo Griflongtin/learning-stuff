@@ -15,6 +15,6 @@ export class UserDocsService {
       return this.users;
     }
     addUser(UserName, docName, text){
-      this.users.push({name: UserName, doc: docName, input: text}});
+      this.users.push({name: UserName, doc: docName, input: text});
     }
 }

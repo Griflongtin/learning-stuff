@@ -10,10 +10,11 @@
     <button type="button" name="button" (click)="newUser(userName.value, text.value, textArea.value)">Add User and doc</button>
   </div>
 
-  <div class="user" *ngFor="let user of Users | async">
+  <div class="doc-input" *ngFor="let user of Users | async">
     <h2>{{user.name}}</h2>
     <p>{{user.$key}}</p>
     <p>{{user.doc}}</p>
+    <p>{{user.input}}</p>
   </div>
 
 </div>
